@@ -1,0 +1,22 @@
+.container
+{
+	border: 1px solid green;
+	display: flex;
+	/* flex-direction: column; pour l'affichage en verticale par ordre 
+	flex-direction: column-reverse; pour l'affichage en verticale par desordre
+	flex-direction: row; pour l'affichage horizontale par ordre
+	flex-direction: row-reverse; pour l'affichage horizontale par desordre */
+	width: 400px;
+	flex-wrap: wrap;  /* il fait un retour a la ligne quand il n'ya plus de places 
+	flex-wrap: wrap-reverse; il fait l'inverse de wrap 
+	flex-wrap: nowrap; retour a la norme */
+
+	justify-content: space-between;
+}
+
+.child
+{
+	width: 125px;
+	height: 125px;
+	border: 1px solid red;
+}

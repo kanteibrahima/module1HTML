@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulaire</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stylea5.css">
+</head>
+<body>
+
+	<h1>formulaire</h1>
+	
+	<form>
+
+		<label for="nom"> Nom</label>
+		<input type="text" id="nom" name="nom" placeholder="Entrez votre nom"> <br> <br>
+
+		<label for="email">Email</label>
+		<input type="text" id="email" name="email" placeholder="Entrez votre email"> <br><br>
+
+		<label for="password">password</label>
+		<input type="password" id="password" name="password" placeholder="*****************" > <br><br>
+
+		<label>message</label>
+		<textarea name="message" id="message" cols="40" rows="6">
+		</textarea> <br><br>
+
+		<div>
+			<label>Choisissez votre sexe</label> <br>
+			
+			<input type="radio" name="sexe"  value="homme"> Homme<br>
+			
+			<input type="radio" name="sexe" value="femme"> Femme<br> <br>
+		</div>
+
+		<hr>
+		<div>
+			<label>Choisissez votre langue</label> <br>
+
+			<input type="checkbox" name="langue" value="Francais"> Francais <br>
+			<input type="checkbox" name="langue" value="Anglais">Anglais <br>
+			<input type="checkbox" name="langue" value="Chinois"> Chinois
+		</div>
+		<hr>
+
+		<select name="club">
+			<option value="">Votre club preferee</option>
+			<option value="PSG">PSG</option>
+			<option value="CHELSEA">CHELSEA</option>
+			<option value="REAL">REAL</option>
+		</select>
+
+	</form>
+
+</body>
+</html>

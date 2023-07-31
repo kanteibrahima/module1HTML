@@ -1,0 +1,18 @@
+body
+{
+	font-family: 'Open sans',sans-serif;
+}
+h1
+{
+	/* color: purple; */
+	color: #FF0000;
+	/* les 2 premiers bites sont pour le rouge, les 2 autres pour le vert et le reste pour le bleu */
+}
+.p1
+{
+	color: #0000FF; /* bleu */
+}
+.p2
+{
+	color: #00FF00; /* vert */
+}

@@ -1,0 +1,49 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+		background: url(vue-du-haut-montagne.jpg);
+		background-repeat: no-repeat;
+}
+
+header
+{
+
+	background-size: cover;
+/*	color: rgb(255,255,255);
+*/}
+.logo a
+{
+	margin: 0px;
+	padding : 0px 60px;
+	color: #fff;
+	/*position: absolute;*/
+	/*top:10px;
+	left: 5px;*/
+	text-decoration: none;
+}
+
+.logo a strong
+{
+	color: #000;
+	font-weight: bold;
+	top: 10px;
+}
+
+ul
+{
+	list-style: none;
+	float: left;
+	
+}
+.oth ul
+{
+	list-style: none;
+	float: right;
+	margin-right: 20px;
+	margin-top: 0px;
+	display: flex;
+	flex-wrap: wrap;
+}

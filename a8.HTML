@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formule avancee</title>
+	<link rel="stylesheet" type="text/css" href="stylea8.css">
+</head>
+<body>
+	<form>
+		<h1>Postuler</h1>
+		<fieldset>
+			
+		<legend>Identification</legend>
+		<label for="nom">Nom</label>
+		<input type="text" name="nom" id="nom" > <br>
+
+		<label for="email">Email</label>
+		<input type="email" name="email" id="email" > <br>
+
+		<label for="mdp">Mot de passe</label>
+		<input type="password" name="mdp" id="mdp" > <br>
+
+		<label for="stat">Statut</label> <br>
+		<input type="radio" name="stat" id="stat" value="Mineur"> Mineur
+
+		<input type="radio" name="stat" id="stat" value="Majeur"> Majeur
+			
+		</fieldset>
+
+		<fieldset>
+			<label for="spe">Specialite</label>
+			<textarea id="spe" name="spe"></textarea>
+
+			<select id="dev">
+				<optgroup label="web">
+				<option value="Front">Frontend</option>
+				<option value="php">php</option>
+				<option value="python">python</option>
+				</optgroup>
+
+				<optgroup label="Mobile">
+				<option value="andoid">android</option>
+				<option value="ios">ios</option>
+				</optgroup>
+
+			</select>
+
+			<label for="int">Centre d'interet</label>
+			<input type="checkbox" name="int" id="int" > Sport
+			<input type="checkbox" name="int" id="int" > Danse
+		</fieldset>
+
+		<input type="submit" name="Postuler" value="Postuler">
+	</form>
+
+</body>
+</html>

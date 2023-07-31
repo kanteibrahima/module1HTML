@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> page de depart</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>page de depart</h1>
+	<!-- cas ou les 2 pages sont dans le meme dossier alors on met le nom du fichier dans le href -->
+	<p>lien vers la <a href="milieu.html " target="_blank">page milieu</a></p>
+	<!-- cas ou l'une des pages est un sous dossier alors on met le nom du repertoire parent separe d'un (/) puis le nom du fichier dans le href -->
+	<p>lien vers la <a href="sous/sous.html">page sous</a></p>
+	<!-- cas ou l'une des pages est un parent alors on met (../) puis le nom du fichier dans le href -->
+	<p>lien vers la <a href="../parent.html">page parent</a></p>
+
+
+        <!-- l'attribut target+_blank permet d'ouvrir une page dans une autre fenetre -->
+		<p>lien vers la <a href="../parent.html" target="_blank">page parent</a></p>
+
+</body>
+</html>

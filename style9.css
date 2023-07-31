@@ -1,0 +1,29 @@
+body
+{
+	font-family: 'Open Sans', sans-serif;
+} 
+h1
+{
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-shadow: 0px 0px 2px teal;
+}
+.p1
+{
+	text-align: right;
+	text-transform: lowercase;
+	text-decoration: overline;
+	text-shadow: -3px 3px 4px #4444;/* la premiere valeur correspond au deplacement horizontal de l'ombre, la deuxieme au vertical, la troisieme au rayon de propagation et la quatrieme au couleur */
+}
+.p2
+{
+	text-align: left;
+	text-transform: capitalize; /* les premiers lettres des mots seront en majuscules */
+	text-decoration: line-through;/* le texte devient barre */
+    text-shadow: 4px -4px 4px blue;
+}
+a{
+	text-decoration: none;
+	text-indent: 100px; /* il permet de faire decaler tout comme le text-align */
+}

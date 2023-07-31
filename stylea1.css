@@ -1,0 +1,36 @@
+body
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.div1
+{
+	background-color: orange;
+	position: fixed;
+	top: 50px;
+	left: 100px;
+	height: 400px;
+	width: 500px;
+	z-index: 100;
+}
+
+h1
+{
+	/*position: fixed; */ /* l'element reste fixe ainsi il arrive qu'il soit suporpose a un autre element */
+    position: absolute;
+    top: 10px;
+    left: : 130px;
+    z-index: 1000;
+
+    /* Quand un element est en position absolute il doit avoir un element parent en position relative */
+}
+
+.p1
+{
+	/*position: static; /* la position d'un element html est static par defaut donc rien ne se passe */
+	/* top: 150px ; /* rien ne se passe egalement a cause de la nature static par defaut */ 
+
+	position: relative; /* avec l'utilisation de relative rien ne se passe egalement mais il nous permet de pouvoir le deplacer grace aux proprites left,right,bottom,top */
+	
+	 left: 50px; 
+}

@@ -1,0 +1,17 @@
+body
+{
+	font-family: 'Open Sans',sans-serif;
+}
+.p1
+{
+	/* line-height: 20px; */
+	/* permet de gerer l'espace entre les lignes */
+    letter-spacing: 4px;
+    word-spacing: 20px;
+}
+.p2
+{
+	/* line-height: 45px; */
+	letter-spacing: -20px;
+	text-align: right;
+}  

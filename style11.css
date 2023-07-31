@@ -1,0 +1,12 @@
+body
+{
+	font-family: 'Open Sans', sans-serif;
+}
+.div1
+{
+	background-color: #009988;
+	width: 500px; /* conntient le contenu */ 
+	padding: 20px; /* espace vide dans le contenu*/
+	border: 20px solid #BC0;
+	margin: 50px;
+} 

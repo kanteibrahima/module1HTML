@@ -1,0 +1,58 @@
+body
+{
+	background: url(vue-du-haut-montagne.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h2
+{
+	color: #fff;
+}
+
+#container
+{
+	background-color: rgba(1,1,1,0.7);
+	margin: auto;
+	margin-top: 100px;
+	/* margin-left: 40%; */
+	max-width: 350px;
+	padding: 40px;
+	/* height: 350px; */
+	border-radius: 20px;
+	text-align: center;
+	/* border-size:border-box; */
+
+}
+h2
+{
+	color: #fff;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+input
+{
+	width: 100%;
+	margin: 10px 0;
+	background-color: transparent;
+	color: #fff;
+	padding: 10px 6px;
+	font-size: 18px;
+	font-weight: bold;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 1px white solid;
+}
+button
+{
+	width: 80%;
+	border-radius: 12px;
+	padding: 10px;
+	background-color: rgba(70,90,200,1);
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	outline: none;
+	cursor: pointer;
+}

@@ -1,0 +1,47 @@
+body
+{
+	font-family: 'Open Sans', sans-serif;
+	background: url(greg-rosenke-6QnEf_b47eA-unsplash.jpg);
+}
+*
+{
+	color: #fff;
+}
+
+.ah
+{
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+}
+
+.bh
+{
+	margin: 0px;
+	padding: 0px;
+	font-weight: lighter;
+}
+
+nav
+{
+	text-align: right;
+	margin-top: 30px;
+	margin-right: 0px;
+	position: sticky;
+
+}
+
+nav ul 
+{
+	display: flex;
+	list-style-type: none;
+	margin-right: : -10px;
+	justify-content: space-around;
+}
+
+.sect2
+{
+	margin-top: 10px;
+	margin-left: 40%;
+	display: inline-block;
+}

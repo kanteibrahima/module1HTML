@@ -1,0 +1,80 @@
+/*
+.container
+{
+	display: flex; /* les element seront ordonnees horizontalement */
+	/*flex-direction: row; /* on aura un axe lineaire */
+	/* flex-direction: row-reverse; /* on aura toujours un axe la premiere element deviendra le n-1 et le dernier element sera le premier */
+   /* flex-direction: column; /* les elements seront disposes verticalement seront la sequence */
+   /* flex-direction: column-reverse; /* les elements seront disposes verticalement mais la sequence sera inversee */
+   
+  /* flex-wrap: wrap; 
+   justify-content: space-between; 
+   /*justify-content: space-around; */
+   /*justify-content: center; */
+}
+body, html
+{
+	line-height: 1.8;
+	padding: 0;
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.header, .content, .sidebar, .footer
+{
+	padding: 26px 34px;
+	color: white;
+	box-sizing: border-box;
+}
+.header
+{
+	background-color: #2b2024;
+	flex-basis: 100%;
+}
+.content
+{
+	background-color: #fd0054;
+	flex-basis: 50%;
+}
+.sidebar
+{
+	background-color: #a80038;
+	color: white;
+	flex-basis: 25%;
+}
+.footer
+{
+	background-color: #2b2024;
+	color: white;
+	flex-basis: 100%;
+}
+@media screen and (max-width: 750px)
+{
+	.content{
+		flex-basis: 100%;
+	}
+	.sidebar
+	{
+		flex-basis: 50%;
+		order: 1;
+	}
+	.footer
+	{
+		order: 2;
+	}
+}
+
+@media screen and (max-width: 500px)
+{
+	.sidebar
+	{
+		flex-basis: 100%;
+	}
+}

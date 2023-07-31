@@ -1,0 +1,24 @@
+body{
+	font-family: 'Open Sans', Sans-serif;
+}
+
+td{
+	border: 1px solid black;
+
+	/* balise padding sert a */
+	padding: 20px ;
+}
+
+table{
+	/*  border-collapse permet de relier les lignes et les colonnes d'un tableau */
+	border-collapse: collapse;
+	
+
+.impaire
+{
+background-color: orange;
+}
+.paire
+{
+	background-color: #069;
+}

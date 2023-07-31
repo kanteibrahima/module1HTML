@@ -1,0 +1,35 @@
+body
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.div1
+{
+	height: 400px;
+	width: 500px;
+	background-color: #DDCC00;
+   /* border-bottom: 5px ridge black;
+    border-right: 10px groove black;
+    border-top: 10px inset black; */
+
+    border: 5px ridge black;
+    border: 10px groove black;
+    border: 10px inset black;
+    border-radius: 15px;
+}
+.p1
+{ 
+	height: 100px;
+	width: 50%;
+	/*padding: 60px; */
+	background-color: #00DDEE;
+	border-width: 5px;
+	/*border-top-style: solid;
+	border-top-color: yellow; */
+
+	border-style: inset;
+	border-color: yellow;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	
+}

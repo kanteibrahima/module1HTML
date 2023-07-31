@@ -1,0 +1,17 @@
+body
+{
+	font-family: 'Open sans',Sans-serif;
+}
+h1
+{
+	font-size: 100px ;
+	font-style: italic;
+	font-weight: lighter;
+
+}
+p
+{
+	font-size: 150%;
+	font-style: oblique;
+	font-weight: bold;
+}

@@ -1,0 +1,88 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Un Formulaire</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="">
+	</head>
+	<body>
+		<form>
+
+			<fieldset>
+				<legend>Information personnelle</legend>
+			<label for="nom">Donnez votre nom</label>
+			<input type="text" name="nom" id="nom" placeholder="Ex: kante" > <br><br>
+
+			<label for="email"  >Donnez votre email  </label>
+			<input type="email" name="email" id="email" required="required" > <br><br>
+
+			<label for="pass"> Donnez votre mot de passe</label>
+			<input type="password" name="pass" id="pass" required="required" > <br><br>
+
+            <label for="ddn">Donnez votre ddn</label>
+			<input type="date" name="ddn" id="ddn"  > <br><br>
+
+			<label for="num"> Donnez votre numero</label>
+			<input type="number" name="num" id="num"> <br><br>
+
+
+			<label for="sexe"> Homme ou Femme ?</label> <br>
+			<input type="radio" name="sexe" id="homme" value="homme" checked="checked"> Homme <br>
+			<!-- <label for="homme">Homme </label>  <br> -->
+			<input type="radio" name="sexe" id="femme" value="femme"> Femme <br><br>
+			<!-- <label for="femme">Femme</label> <br> <br> -->
+			</fieldset>
+
+
+			<fieldset>
+				<legend>Information supplementaire</legend>
+
+			<label for="site">Donnez votre site</label>
+			<input type="url" name="site" id="site"> <br><br>
+
+			<label for="sport">Quel sport regardes-tu ?</label> <br>
+			<input type="checkbox" name="sport" id="foot" value="foot" checked="checked"> Football <br>
+			<input type="checkbox" name="sport" id="basket" value="basket" checked="checked"> Basketball <br>
+			<input type="checkbox" name="sport" id="tennis" value="tenis"> Tennis <br>
+			<input type="checkbox" name="sport" id="handball" value="handball"> Handball <br>
+			<input type="checkbox" name="sport" id="karate" value="karate"> Karate <br><br>
+
+			<label for="pays">Selectionnez un pays</label> <br>
+			<select name="pays" > 
+
+				<optgroup label="Afrique" >
+				<option value="senegal">senegal</option>
+				<option value="gambie">gambie</option>
+				<option value="zambie">zambie</option>
+				<option value="namibie">namibie</option>
+				<option value="congo">congo</option>
+				<option value="togo">togo</option>
+				<option value="gabon">gabon</option>
+				</optgroup>
+
+				<optgroup label="Europe">
+				<option value="france">france</option>
+				<option value="suisse">suisse</option>
+				<option value="italie">italie</option>
+				<option value="grece">grece</option>
+				</optgroup>
+
+				<optgroup label="Amerique">
+				<option value="canada">canada</option>
+				<option value="etat-unis" selected="selected">etat-unis</option>
+				<option value="argentine">argentine</option>
+				<option value="brasil">brasil</option>
+				</optgroup>
+			</select> <br><br> 
+
+
+
+			</fieldset>
+			<br>
+
+			<input type="submit" name="send" id="send" value="Envoyer"> <br> <br>
+
+		</form>
+	
+	</body>
+	</html>
